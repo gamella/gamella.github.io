@@ -67,10 +67,10 @@ td a:active
 }
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #734f7f;
+    border: 1px solid #853a7f;
     outline: 0;
     color: #ffffff;
-    background-color: #734f7f;
+    background-color: #853a7f;
 }
 .btn-primary {
     border: 1px solid #ffffff;
@@ -79,10 +79,10 @@ td a:active
 }
 .btn-primary:hover,
 .btn-primary:focus {
-    border: 1px solid #734f7f;
+    border: 1px solid #853a7f;
     outline: 0;
     color: #ffffff;
-    background-color: #734f7f;
+    background-color: #853a7f;
 }
 .list-inline > li.button {
     padding-top: 10px;
@@ -101,7 +101,7 @@ td a:active
 .animatable:hover,
 .animatable:focus {
     outline: 0;
-    color: #734f7f;
+    color: #853a7f;
     transform: scale(1.1);
 }
 img.popupable {
@@ -175,7 +175,7 @@ div.blind {
   top: 0;
   left: 0;
   margin-top: 0%;
-  background: #734f7f;
+  background: #853a7f;
 }
 .normal {
   padding: 50px 0;
@@ -187,7 +187,7 @@ div.blind {
   margin: 0 auto;
 }
 .highlight {
-  background: #734f7f;
+  background: #853a7f;
   padding: 50px 0;
   color: #ffffff;
 }
@@ -234,7 +234,7 @@ i.scroll {
   color: #000000;
 }
 i.scroll:hover {
-  color: #734f7f;
+  color: #853a7f;
 }
 @keyframes fadein {
     from { opacity: 0; }
