@@ -12,43 +12,21 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright">TradingView提供の<a href="https://jp.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">マーケット</span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  <div class="tradingview-widget-copyright">TradingView提供の<a href="https://jp.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">本日のAAPL価格</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
   {
-  "symbols": [
-    {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P500"
-    },
-    {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "US100"
-    },
-    {
-      "proName": "FX_IDC:EURUSD",
-      "title": "EUR/USD"
-    },
-    {
-      "proName": "BITSTAMP:BTCUSD",
-      "title": "ビットコイン"
-    },
-    {
-      "proName": "BITSTAMP:ETHUSD",
-      "title": "イーサリアム"
-    }
-  ],
-  "showSymbolLogo": true,
+  "symbol": "TSE:7203",
+  "width": "100%",
+  "locale": "ja",
   "colorTheme": "light",
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "locale": "ja"
+  "isTransparent": false
 }
   </script>
 </div>
 <!-- TradingView Widget END -->
 
 <!-- TradingView Widget BEGIN -->
-<div style="height:700px;">
+<div style="height:500px;">
 <div class="tradingview-widget-container">
   <div id="tradingview_e2c57"></div>
   <div class="tradingview-widget-copyright">TradingView提供の <a href="https://jp.tradingview.com/symbols/AAPL/" rel="noopener" target="_blank"><span class="blue-text">Apple</span></a></div>
@@ -58,16 +36,8 @@
   {
   "symbols": [
     [
-      "Apple",
-      "AAPL|1D"
-    ],
-    [
-      "Google",
-      "GOOGL|1D"
-    ],
-    [
-      "Microsoft",
-      "MSFT|1D"
+      "トヨタ自動車",
+      "TSE:7203|1D"
     ]
   ],
   "chartOnly": false,
@@ -94,26 +64,6 @@
 <!-- TradingView Widget END -->
 
 <!-- TradingView Widget BEGIN -->
-<div style="height:500px;">
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright">TradingView提供の <a href="https://jp.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPLのプロフィール</span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
-  {
-  "width": "100%",
-  "height": "100%",
-  "colorTheme": "light",
-  "isTransparent": false,
-  "symbol": "NASDAQ:AAPL",
-  "locale": "ja"
-}
-  </script>
-</div>
-</div>
-<!-- TradingView Widget END -->
-
-<div style="height:500px;">
-<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright">TradingView提供の <a href="https://jp.tradingview.com/symbols/NASDAQ-AAPL/financials-overview/" rel="noopener" target="_blank"><span class="blue-text">AAPL ファンダメンタルデータ</span></a></div>
@@ -122,14 +72,13 @@
   "colorTheme": "light",
   "isTransparent": false,
   "largeChartUrl": "",
-  "displayMode": "adaptive",
+  "displayMode": "compact",
   "width": "100%",
   "height": "100%",
-  "symbol": "NASDAQ:AAPL",
+  "symbol": "TSE:7203",
   "locale": "ja"
 }
   </script>
-</div>
 </div>
 <!-- TradingView Widget END -->
 
